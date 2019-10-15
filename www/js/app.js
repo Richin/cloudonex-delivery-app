@@ -777,7 +777,7 @@ function callAjax(action,params)
 		   			case "AddSignatureToTask":
 		   			    kNavigator.popPage().then(function() {							
 		   			    	callAjax("TaskDetails",'task_id=' + data.details );
-				        });		   			    
+				        });
 		   			break;
 		   			
 		   			
@@ -1016,15 +1016,12 @@ function callAjax(action,params)
 				  	 	     $(".recipient_name").hide();
 	  	 	             }
 		   			  } else {
-		   			  	
 		   			  	 $(".toolbar-title-signature").html( getTrans("Add Signature",'add_signature') );
 	  	 	             $(".signature-action").show();	
 	  	 	             $(".recipient_name").show();  	 	               
-	  	 	             $sigdiv = $("#signature-pan") ;	  	 	           
-
-	  	 	             if(!empty(data.details.data.receive_by)){
-		   			       $(".recipient_name").val( data.details.data.receive_by );		   			     
-	  	 	             }
+	  	 	             $sigdiv = $("#signature-pan") ;
+	  	 	             //$sigdiv.jSignature();
+		   			     $(".recipient_name").val( data.details.data.receive_by );
 		   			     if (!empty(data.details.data)){
 		   			     	 $(".signature_id").val( data.details.data.id );
 		   			     	 dump(data.details.data.signature_base30);		   			     	 
@@ -3059,7 +3056,7 @@ function onForegroundMode()
 		}, 0);
 		
 	} catch(err) {
-       //toastMsg(err.message);       
+       toastMsg(err.message);       
     }  
 	
 }
