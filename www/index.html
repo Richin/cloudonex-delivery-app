@@ -46,7 +46,7 @@
     <link href="lib/intel/build/css/intlTelInput.css" rel="stylesheet" type="text/css" />
    <script type="text/javascript" src="lib/intel/build/js/intlTelInput.js"></script>
 
-   <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyAZx50TVYfWrkTDqEIgCABn1-1PYefoKUE"></script>
+   <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyCu5mHAKH0P62SOhXYeY5D8DZEGaZ-mClA"></script>
    <script src="lib/gmaps.js?version=1.0.0"></script>
 
    <script src="lib/leaflet/leaflet.js"></script>
@@ -122,7 +122,7 @@
               </ons-row>
            </p>
 
-           <p class="text-left"">
+           <p class="text-left">
             <ons-if platform="android">
 	           <ons-button modifier="large" onclick="login()" >
 	           <span class="trn" data-trn-key="signin">Sign In</span>
@@ -422,7 +422,7 @@
              <ons-input type="text" id="reason" name="reason"
               modifier="underbar" placeholder="Add a reason..."  data-trn-key="add_reason"  float></ons-input>
            </p>
-           <p class="text-left"">
+           <p class="text-left">
            <ons-button modifier="large" onclick="AddReasonTask()" >
             <span class="trn" data-trn-key="submit" >Submit</span>
            </ons-button>
@@ -446,9 +446,10 @@
        <div class="inner">
 
          <p class="field-wrap">
-         <ons-input type="text" name="recipient_name" class="recipient_name"
-         modifier="underbar" placeholder="Recipient name" data-trn-key="recipient_name" float></ons-input>
+         <!--<ons-input type="text" name="recipient_name" class="recipient_name trn"
+         modifier="underbar" placeholder="Recipient name" data-trn-key="recipient_name" float></ons-input>-->
 
+          <ons-input id="recipient_name" class="recipient_name trn"  modifier="underbar" placeholder="Recipient name" float></ons-input>
          </p>
 
          <div id="signature-pan"></div>
@@ -938,7 +939,7 @@
               modifier="underbar" float></ons-input>
            </p>
 
-           <p class="text-left"">
+           <p class="text-left">
            <ons-button modifier="large" onclick="updateNotes()" >
            <span class="trn" data-trn-key="submit">Submit</span>
            </ons-button>
