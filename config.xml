@@ -4,14 +4,14 @@
     xmlns:android = "http://schemas.android.com/apk/res/android"
     id        = "com.akstech.touchonedriver"
     versionCode = "18"
-    version   = "9.1"
+    version   = "8.0"
     >
-    <name>Driver App</name>
+    <name>Karenderia Driver App</name>
     <description>
-      Driver App
+        Karenderia Driver App
     </description>
-    <author email="richin@apstrix.com" href="http://cordova.io">
-        richin@apstrix.com
+    <author email="bastikikang@gmail.com" href="http://cordova.io">
+        bastisapp.com
     </author>
     <icon src="icon.png" />
     <content src="index.html" />
@@ -76,13 +76,13 @@
 
     <platform name="ios">
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-	        <string>Driver app want to always use your location</string>
+	        <string>Karenderia want to always use your location</string>
 	    </config-file>
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-	        <string>Driver app wants to use your location</string>
+	        <string>Karenderia wants to use your location</string>
 	    </config-file>
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
-	        <string>Driver App wants to use your location</string>
+	        <string>Karenderia wants to use your location</string>
 	    </config-file>
 	</platform>
 
