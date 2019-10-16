@@ -121,6 +121,7 @@
 
 	    <resource-file src="google-services.json" target="google-services.json" />
 	    <resource-file src="google-services.json" target="app/google-services.json" />
+      <resource-file src="res/icons/android/drawable-xxxhdpi-icon.png" target="app/src/main/res/mipmap/icon.png" />
 
 		<icon density="ldpi" src="res/icons/android/drawable-ldpi-icon.png" />
 		<icon density="mdpi" src="res/icons/android/drawable-mdpi-icon.png" />
