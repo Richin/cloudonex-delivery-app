@@ -1,9 +1,9 @@
 /*Driver App Configuration*/
 
-var krms_driver_config ={
-	'ApiUrl':"http://eyh-delivery.akstech.com.sg/driver/api",
+var krms_driver_config ={			
+	'ApiUrl':"",		
 	'DialogDefaultTitle':"DriverApp",
 	'mapboxToken' : '',
-	'APIHasKey':"eyhhashkey",
+	'APIHasKey':"",
 	'debug': false
 };

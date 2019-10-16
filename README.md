@@ -1,1 +1,0 @@
-# cloudonex-delivery-app
