@@ -2,16 +2,16 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     xmlns:android = "http://schemas.android.com/apk/res/android"
-    id        = "com.akstech.touchonedriver"
+    id        = "eyh.driver.app"
     versionCode = "18"
-    version   = "8.0"
+    version   = "1.7.5"
     >
-    <name>Karenderia Driver App</name>
+    <name>Eyh Driver App</name>
     <description>
-        Karenderia Driver App
+        Eyh Driver App
     </description>
-    <author email="bastikikang@gmail.com" href="http://cordova.io">
-        bastisapp.com
+    <author email="richin@apstrix.com" href="http://cordova.io">
+        Eyh.com.sg
     </author>
     <icon src="icon.png" />
     <content src="index.html" />
@@ -46,9 +46,7 @@
 	  <variable name="MOTION_USAGE_DESCRIPTION" value="App requires motion detection" />
     </plugin>
 
-    <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" source="npm" spec="5.0.4" >
-       <variable name="GOOGLE_API_KEY_FOR_ANDROID" value="" />
-    </plugin>
+    <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" source="npm" spec="4.2.1" />
 
 
 	<gap:splash src="splash.png" />
@@ -69,20 +67,20 @@
 
     <gap:plugin name="cordova.plugins.diagnostic" source="npm" spec="3.7.3" />
 
-    <preference name="phonegap-version" value="cli-8.1.1" />
+    <preference name="phonegap-version" value="cli-7.1.0" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="DisallowOverscroll" value="true" />
 
     <platform name="ios">
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-	        <string>Karenderia want to always use your location</string>
+	        <string>Eyh want to always use your location</string>
 	    </config-file>
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-	        <string>Karenderia wants to use your location</string>
+	        <string>Eyh wants to use your location</string>
 	    </config-file>
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
-	        <string>Karenderia wants to use your location</string>
+	        <string>Eyh wants to use your location</string>
 	    </config-file>
 	</platform>
 
@@ -105,10 +103,6 @@
 	<edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
 	    <string>need to photo library access to save pictures there</string>
 	</edit-config>
-
-	<edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
-      <string>need microphone access to record sounds</string>
-    </edit-config>
 
     <edit-config target="NSLocationAlwaysUsageDescription" file="*-Info.plist" mode="merge">
 	    <string>need location access to find things nearby</string>
