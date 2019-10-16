@@ -6,12 +6,12 @@
     versionCode = "18"
     version   = "8.0"
     >
-    <name>Karenderia Driver App</name>
+    <name>Driver App</name>
     <description>
-        Karenderia Driver App
+         Driver App
     </description>
-    <author email="bastikikang@gmail.com" href="http://cordova.io">
-        bastisapp.com
+    <author email="richin@apstrix.com" href="http://cordova.io">
+        apstrix.com
     </author>
     <icon src="icon.png" />
     <content src="index.html" />
@@ -76,13 +76,13 @@
 
     <platform name="ios">
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-	        <string>Karenderia want to always use your location</string>
+	        <string>Driver app want to always use your location</string>
 	    </config-file>
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-	        <string>Karenderia wants to use your location</string>
+	        <string>Driver app wants to use your location</string>
 	    </config-file>
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
-	        <string>Karenderia wants to use your location</string>
+	        <string>Driver app wants to use your location</string>
 	    </config-file>
 	</platform>
 
