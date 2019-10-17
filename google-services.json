@@ -44,6 +44,42 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:93348451660:android:f9e1985cab5fbfa7a0ebe9",
+        "android_client_info": {
+          "package_name": "com.bsaquatierra.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93348451660-31otafskgsovobm34ebqd0t9mc3e0gp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDelYVW__vQF_jL_srbt_LTpW33-p00GSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93348451660-31otafskgsovobm34ebqd0t9mc3e0gp1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "93348451660-485v11r3gc3d3ktl5ln8i7m0047c6ee8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.akstech.touchonedriver"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:93348451660:android:121fb5438bda6f37",
         "android_client_info": {
           "package_name": "com.mobilecity.driver"
