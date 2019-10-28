@@ -1,7 +1,7 @@
 /*Driver App Configuration*/
 
 var krms_driver_config ={
-	'ApiUrl':"http://delivery.sthang.akstech.com.sg/driver/api",
+	'ApiUrl':"http://delivery.mobile-empire.akstech.com.sg/driver/api",
 	'DialogDefaultTitle':"DriverApp",
 	'mapboxToken' : '',
 	'APIHasKey':"w1o3sdsfvo4eandux30mdr3b70hb4a1fozmd267j",
