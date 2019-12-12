@@ -509,11 +509,9 @@ font-size:11px;
 
 #calendar .total_task{
 position:absolute;
-bottom: 0px;
-left: 0px;
 text-align:center;
-width: 3px; height: 3px;
--moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px;
+width: 1px; height: 1px; 
+/*-moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px;*/
 }
 
 .inner-profile{
