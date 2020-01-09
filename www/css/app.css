@@ -52,7 +52,7 @@ min-width:24px;
 padding:20px;
 -moz-border-radius: 2px;
 -webkit-border-radius: 2px;
-border-radius: 2px; 
+border-radius: 2px;
 -khtml-border-radius: 2px;
 }
 .img_loaded img,
@@ -221,7 +221,7 @@ color:#fff;
 padding:3px 8px;
 }
 
-/*.page--login-page ons-input input.text-input--material::-moz-placeholder{ 
+/*.page--login-page ons-input input.text-input--material::-moz-placeholder{
 color:#fff;
  }*/
 .page--login-page ons-input input.text-input--material::-webkit-input-placeholder{
@@ -238,7 +238,7 @@ color:#fff;
 .page--login-page ons-input .text-input__label {
 color:#009688;
 }
- 
+
 .inner .button--material--flat,
 .button--material,
 .tab-bar--material__button.tab-bar--top__button
@@ -316,7 +316,7 @@ padding:0 10px;
 {
 -moz-border-radius: 3px;
 -webkit-border-radius: 3px;
-border-radius: 3px; 
+border-radius: 3px;
 -khtml-border-radius: 3px;
 }
 
@@ -503,15 +503,15 @@ padding:10px;
 font-size:11px;
 }
 
-#calendar .fc th, 
+#calendar .fc th,
 #calendar .fc td{
 }
 
 #calendar .total_task{
 position:absolute;
 text-align:center;
-width: 15px; height: 18px; 
--moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px;
+width: 1px; height: 1px;
+/*-moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px;*/
 }
 
 .inner-profile{
@@ -592,7 +592,7 @@ margin-left: 18px;
 
 /** 1.1 new css */
 .navigation-bar--toolbar-noshadow .toolbar-button,
-.navigation-bar--toolbar-noshadow .toolbar-button--outline, 
+.navigation-bar--toolbar-noshadow .toolbar-button--outline,
 .navigation-bar--toolbar-noshadow .toolbar-button--quiet,
 .navigation-bar--toolbar-noshadow .navigation-bar__title,
 .navigation-bar--toolbar-noshadow .back-button
@@ -608,7 +608,7 @@ color:#fff;
 }
 
 .navigation-bar--ktransparent-toolbar .toolbar-button,
-.navigation-bar--ktransparent-toolbar .toolbar-button--outline, 
+.navigation-bar--ktransparent-toolbar .toolbar-button--outline,
 .navigation-bar--ktransparent-toolbar .toolbar-button--quiet,
 .navigation-bar--ktransparent-toolbar .navigation-bar__title,
 .navigation-bar--ktransparent-toolbar .back-button,
@@ -699,7 +699,7 @@ top: -5%;
 .img_loader .spinner{
 display:block;
 }
-.spinner { 
+.spinner {
   display:none;
   width: 40px;
   height: 40px;
@@ -717,7 +717,7 @@ display:block;
   position: absolute;
   top: 0;
   left: 0;
-  
+
   -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
   animation: sk-bounce 2.0s infinite ease-in-out;
 }
@@ -733,10 +733,10 @@ display:block;
 }
 
 @keyframes sk-bounce {
-  0%, 100% { 
+  0%, 100% {
     transform: scale(0.0);
     -webkit-transform: scale(0.0);
-  } 50% { 
+  } 50% {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
