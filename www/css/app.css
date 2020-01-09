@@ -510,7 +510,11 @@ font-size:11px;
 #calendar .total_task{
 position:absolute;
 text-align:center;
+<<<<<<< HEAD
 width: 1px; height: 1px;
+=======
+width: 1px; height: 1px; 
+>>>>>>> touchone
 /*-moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px;*/
 }
 
