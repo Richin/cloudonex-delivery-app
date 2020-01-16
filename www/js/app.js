@@ -3439,21 +3439,17 @@ getDirections = function(){
 		your_lat = $("#your_lat").val();
 		your_lng = $("#your_lng").val();
 		if(empty(your_lat)){
-			task_lat = "1.303107";
-			task_lng = "103.852910";
+			your_lat = "1.303107";
+			your_lng = "103.852910";
 			//toastMsg( getTrans("Location Not updated","missing_coordinates") );
 			//return;
 		}
 
-		task_lat = $("#task_lat").val();
-		task_lng = $("#task_lng").val();
-		toastMsg( getTrans("Task latitude - "+task_lng+" Task longit - "+task_lng,"missing_coordinates") );
-		return;
 			if(empty(task_lat)){
 			task_lat = "1.303107";
 			task_lng = "103.852910";
-		toastMsg( getTrans("Task Location Not updated","missing_coordinates") );
-		return;
+		//toastMsg( getTrans("Task Location Not updated","missing_coordinates") );
+		//return;
 		}
 
 		if (!empty(your_lat) && !empty(task_lat) ) {
