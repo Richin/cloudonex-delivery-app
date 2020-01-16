@@ -3441,8 +3441,8 @@ getDirections = function(){
 		if(empty(your_lat)){
 			task_lat = "1.303107";
 			task_lng = "103.852910";
-			toastMsg( getTrans("Location Not updated","missing_coordinates") );
-			return;
+			//toastMsg( getTrans("Location Not updated","missing_coordinates") );
+			//return;
 		}
 
 		task_lat = $("#task_lat").val();
