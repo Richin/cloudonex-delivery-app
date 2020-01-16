@@ -3441,8 +3441,8 @@ getDirections = function(){
 
 		task_lat = $("#task_lat").val();
 		task_lng = $("#task_lng").val();
-		your_lat = "1.303107";
-			your_lng = "103.852910";
+		task_lat = "1.303107";
+			task_lat = "103.852910";
 
 		if (!empty(your_lat) && !empty(task_lat) ) {
 
