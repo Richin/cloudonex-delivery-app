@@ -6,11 +6,11 @@ var mapbox_bounds = [];
 
 
 mapboxInitMap = function(lat, lng, address){
-	
+
 	try {
 
 		if(empty(lat) && empty(lng)){
-		   toastMsg( getTrans("Missing Coordinates","missing_coordinates") );
+		   toastMsg( getTrans("Missing Coordinates1","missing_coordinates") );
 		   return;
 		}
 
@@ -106,10 +106,9 @@ mapboxInitDropOffMap = function(){
 
 	var lat = data.task_lat;
 	var lng = data.task_lng;
-lat = "1.303107";
-	lng = "103.852910";
+
 	if(empty(lat) && empty(lng)){
-	   toastMsg( getTrans("Missing Coordinates","missing_coordinates") );
+	   toastMsg( getTrans("Missing Coordinates2","missing_coordinates") );
 	   return;
 	}
 
