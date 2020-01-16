@@ -3462,7 +3462,7 @@ getDirections = function(){
 		   });
 		
 		} else {
-			toastMsg( getTrans("Missing Coordinates","missing_coordinates") );
+			toastMsg( getTrans("Missing Coordinates4","missing_coordinates") );
 		}
 		
 	} catch(err) {		
