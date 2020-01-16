@@ -3330,7 +3330,7 @@ initMap = function(lat, lng, address){
 	try {
 		
 		if(empty(lat) && empty(lng)){
-		   toastMsg( getTrans("Missing Coordinates","missing_coordinates") );	
+		   toastMsg( getTrans("Missing Coordinates1","missing_coordinates") );	
 		   return;
 		}
 		
@@ -3458,7 +3458,7 @@ getDirections = function(){
 		   });
 		
 		} else {
-			toastMsg( getTrans("Missing Coordinates","missing_coordinates") );
+			toastMsg( getTrans("Missing Coordinates2","missing_coordinates") );
 		}
 		
 	} catch(err) {		
@@ -3492,7 +3492,7 @@ initMapDropOff = function(){
 	var lng = data.task_lng;
 	
 	if(empty(lat) && empty(lng)){
-	   toastMsg( getTrans("Missing Coordinates","missing_coordinates") );	
+	   toastMsg( getTrans("Missing Coordinates4","missing_coordinates") );	
 	   return;
 	}
 	
@@ -3622,7 +3622,7 @@ getDirectionsDropoff = function(){
 		var dropoff_lng;
 				
 		if(empty(lat) && empty(lng)){
-		   toastMsg( getTrans("Missing Coordinates","missing_coordinates") );	
+		   toastMsg( getTrans("Missing Coordinates6","missing_coordinates") );	
 		   return;
 		}
 		
@@ -3639,7 +3639,7 @@ getDirectionsDropoff = function(){
 	           start: your_lat+","+your_lng
 	        });
 		} else {
-			toastMsg( getTrans("Missing Coordinates","missing_coordinates") );	
+			toastMsg( getTrans("Missing Coordinates7","missing_coordinates") );	
 		}
 			
 	} catch(err) {		
