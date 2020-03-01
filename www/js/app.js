@@ -3439,15 +3439,15 @@ getDirections = function(){
 		your_lat = $("#your_lat").val();
 		your_lng = $("#your_lng").val();
 		if(empty(your_lat)){
-			your_lat = "1.303107";
-			your_lng = "103.852910";
+			your_lat = "1.4167918";
+			your_lng = "103.8345779";
 			//toastMsg( getTrans("Location Not updated","missing_coordinates") );
 			//return;
 		}
 
 			if(empty(task_lat)){
-			task_lat = "1.303107";
-			task_lng = "103.852910";
+			task_lat = "1.4167918";
+			task_lng = "103.8345779";
 		//toastMsg( getTrans("Task Location Not updated","missing_coordinates") );
 		//return;
 		}
